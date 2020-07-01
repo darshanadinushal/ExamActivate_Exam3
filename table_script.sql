@@ -1,0 +1,8 @@
+﻿CREATE TABLE MyGuests (
+Id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+UserId VARCHAR(30) NOT NULL,
+MileStone  Int NOT NULL,
+TargetSteps	 Int NOT NULL,
+Points	 Int NOT NULL,
+EffectiveDate DATE
+)
